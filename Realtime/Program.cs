@@ -13,7 +13,7 @@ namespace Realtime
             Parminent employee= new Parminent();
             var ListOfAvalibleItems = employee.ShowOnlyPeminentEmp();
             User user = new User();
-            user.Id = 10;
+            user.Id = 100;
             user.Name = "Chinna";
 
             if (user.Id == 10 && user.Name.ToLower() == "raghav")
