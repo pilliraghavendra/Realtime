@@ -14,7 +14,7 @@ namespace Realtime
             var ListOfAvalibleItems = employee.ShowOnlyPeminentEmp();
             User user = new User();
             user.Id = 10;
-            user.Name = "Raghav";
+            user.Name = "Raghavendra";
 
             if (user.Id == 10 && user.Name.ToLower() == "raghav")
             {
